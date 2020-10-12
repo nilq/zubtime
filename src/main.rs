@@ -28,7 +28,7 @@ fn nice(again: bool) {
         println!();
         println!("It's new projecc time.");
 
-        let name = rl.readline("Pick a name>>").unwrap();
+        let name = rl.readline("Pick a project name>>").unwrap();
         let author = rl.readline("And who you are>>").unwrap();
         let path = rl.readline("Aaand a path>>").unwrap();
 
